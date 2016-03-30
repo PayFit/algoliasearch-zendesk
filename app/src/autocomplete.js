@@ -158,7 +158,7 @@ class Autocomplete {
 
   _onSelected(baseUrl) {
     return (event, suggestion, dataset) => {
-      location.href = `${baseUrl}${this.locale}/${dataset}/${suggestion.id}`;
+      window.open(`${baseUrl}${this.locale}/${dataset}/${suggestion.id}`, '_blank');
     };
   }
 
