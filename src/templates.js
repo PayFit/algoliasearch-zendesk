@@ -42,7 +42,7 @@ export default {
       </div>`),
 
     // Powered By
-    footer: '',
+    footer: Hogan.compile(''),
 
     // CSS to add to handle the colors
     css: Hogan.compile(`
