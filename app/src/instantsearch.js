@@ -60,7 +60,7 @@ class InstantSearch {
     translations
   }) {
     if (!enabled) return;
-    let I18n = require('I18n');
+    let I18n = require('./I18n');
 
     this.$autocompleteInput = $(autocompleteSelector);
     this._hideAutocomplete();
