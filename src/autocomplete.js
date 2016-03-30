@@ -73,7 +73,7 @@ class Autocomplete {
     addCSS(templates.autocomplete.css.render({colors}));
 
     this.$input
-      .attr('placeholder', translations.placeholder_autocomplete)
+      .attr('placeholder', 'Une question ? Vous trouverez la réponse ici !')
       .autocomplete({
         hint: false,
         debug: process.env.NODE_ENV === 'development',
