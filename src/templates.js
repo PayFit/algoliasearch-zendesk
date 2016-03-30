@@ -42,15 +42,7 @@ export default {
       </div>`),
 
     // Powered By
-    footer: Hogan.compile(`<div class="aa-powered-by" style="border-top-color: {{colors.secondary}}">
-      {{ translations.search_by }}
-      <a
-        href="https://www.algolia.com/?utm_source=zendesk_hc&utm_medium=link&utm_campaign=autocomplete"
-        class="aa-powered-by-link"
-      >
-        Algolia
-      </a>
-    </div>`),
+    footer: '',
 
     // CSS to add to handle the colors
     css: Hogan.compile(`
