@@ -45,7 +45,7 @@ class Autocomplete {
 
     this.$input = $(inputSelector);
 
-    this.locale = require('I18n').locale;
+    this.locale = require('./I18n').locale;
 
     // Add a mock autocomplete to check the width the
     // menu would have
