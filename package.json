@@ -1,25 +1,23 @@
 {
-  "name": "algoliasearch.zendesk-hc.tools",
-  "description": "Algolia Search for Zendesk's Help Center. This private project is used for the tools and scripts at the root of the repository.",
-  "author": "Algolia <support@algolia.com>",
+  "name": "algoliasearch.zendesk-hc",
   "version": "1.7.3",
-  "private": true,
+  "description": "Algolia Search for Zendesk's Help Center",
+  "author": "Algolia <support@algolia.com>",
+  "keywords": [
+    "algolia",
+    "search",
+    "zendesk",
+    "help center"
+  ],
+  "homepage": "https://github.com/algolia/algoliasearch-zendesk",
+  "bugs": "https://github.com/algolia/algoliasearch-zendesk/issues",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/algolia/algoliasearch-zendesk.git"
-  },
-  "devDependencies": {
-    "conventional-changelog": "^0.5.3",
-    "gh-pages": "^0.8.0",
-    "json": "^9.0.3"
-  },
-  "scripts": {
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0",
-    "release": "./scripts/release.sh",
-    "release:app": "./scripts/release-app.sh",
-    "release:crawler": "./scripts/release-crawler.sh",
-    "release:docs": "./scripts/release-docs.sh",
-    "release:git": "./scripts/release-git.sh"
+  "main": "index.js",
+  "dependencies": {
+    "algoliasearch": "^3.9.2",
+    "autocomplete.js": "^0.16.2",
+    "hogan.js": "^3.0.2",
+    "instantsearch.js": "^1.4.0",
+    "lodash": "^4.3.0"
   }
 }
