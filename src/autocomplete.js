@@ -8,8 +8,8 @@ import templates from './templates.js';
 import addCSS from './addCSS.js';
 import removeCSS from './removeCSS.js';
 
-const XS_WIDTH = 50;
-const SM_WIDTH = 100;
+const XS_WIDTH = 200;
+const SM_WIDTH = 400;
 
 class Autocomplete {
   constructor({
